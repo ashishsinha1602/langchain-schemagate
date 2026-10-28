@@ -25,7 +25,7 @@ It is a `BaseRetriever`, so it composes:
 small embedder) and calls no model.
 
 On Spider 2.0's public BigQuery and Snowflake schemas, the median database with 50+ tables went from
-the full schema to a selection 92.9% smaller, in prompt tokens. On small databases there is little to
+the full schema to a selection 91.1% smaller, in prompt tokens. On small databases there is little to
 cut: 8.8% on BIRD's seven-table ones. The script and the recall trade-off are in
 [schemagate's BENCHMARKS.md](https://github.com/ashishsinha1602/schemagate/blob/main/BENCHMARKS.md#prompt-tokens-on-public-schemas-the-saving-grows-with-the-schema).
 
